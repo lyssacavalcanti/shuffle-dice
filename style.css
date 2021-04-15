@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background: black;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#img {
+  width: 150px;
+  height: 150px;
+}
+#btn {
+  width: 250px;
+  height: 50px;
+  margin: 20px;
+  font-size: 2rem;
+  font-family: monospace;
+  font-weight: 700;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  outline: none;
+  background: #21d4fd;
+  background-image: #0cd0cd;
+}
